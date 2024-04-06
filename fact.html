@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <title>Interleave vector and object layers</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fact.css">
+    <style>
+        /* Custom CSS for the map container */
+        #map-container {
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        #map {
+            height: 400px; /* Adjust the height as needed */
+            width: 100%;
+        }
+      .reasons-container {
+            margin-top: 20px;
+        }
+
+        .reasons-container h2 {
+            font-style: italic;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .reasons-container h3 {
+            font-style: italic;
+        }
+
+        .reasons-container p {
+            margin-bottom: 20px;
+        }
+
+        body {
+            background-image: url('https://img.pikbest.com/origin/09/25/30/447pIkbEsTs9n.png!f305cw');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-color: rgba(255, 255, 255, 2);
+        }
+
+        header {
+            background-color: #343a40;
+            padding: 10px 0;
+            text-align: center;
+            color: #fff;
+            background-image: linear-gradient(rgb(135, 163, 247), rgb(58, 247, 253));
+            font-family: Italic, bold;
+            position: relative;
+        
+
+        .back-btn {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-4"> <!-- Bootstrap container class for responsive layout -->
+  <header>
+        <a href="govbuz.html" class="btn btn-secondary back-btn">Back</a>
+        <h1>Geo Planner 360</h1>
+    </header>
+    <div class="page-header text-center">
+        <h1>“Designing for tomorrow, today”</h1>
+        <p></p>
+    </div>
+
+    <div id="map-container">
+        <div id="map"></div>
+    </div>
+  
+   <div class="mt-4">
+        <h5 class="font-italic font-weight">
+</h6>
+       <div class="reasons-container mt-4">
+    <div class="container">
+        <h2>Reasons to Start an Industry near Bhayli and Natu Bhai Circle</h2>
+        <div class="reason">
+            <h3>1. Strategic Location</h3>
+            <p>The proximity of Bhayli and Natu Bhai Circle to major transportation routes and urban centers makes it an ideal location for an industry. Easy access to highways and railways facilitates the transportation of raw materials and finished products.</p>
+        </div>
+        <div class="reason">
+            <h3>2. Availability of Resources</h3>
+            <p>The area surrounding Bhayli and Natu Bhai Circle may offer abundant natural resources, skilled labor, and supporting infrastructure necessary for setting up and operating an industry efficiently.</p>
+        </div>
+        <div class="reason">
+            <h3>3. Economic Growth</h3>
+            <p>An industry in this area can contribute to the economic growth of the region by creating employment opportunities, attracting investments, and fostering innovation and technological advancements.</p>
+        </div>
+    </div>
+</div>
+
+    </div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script src="https://js.api.here.com/v3/3.1/mapsjs-core.js"></script>
+<script src="https://js.api.here.com/v3/3.1/mapsjs-service.js"></script>
+<script src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js"></script>
+
+<script src="fact.js"></script>
+
+</body>
+</html>

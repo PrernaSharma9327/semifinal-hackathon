@@ -1,0 +1,163 @@
+
+  <head>
+    <header class="header">
+      <a href="home.html" class="btn btn-secondary back-btn">Back</a>
+      <img src="images/logo.jpg" alt="GEO PLANNER 360 Logo" class="logo">
+      <a href="home.html" class="btn btn-secondary back-btn">Back</a>
+      <h1 class="header-title">GEO PLANNER 360</h1>
+  </header>
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <meta name="description" content="Parse a GeoJSON file and display the data on a map">
+    <title>Display GeoJSON Data</title>
+    <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-core.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-service.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-ui.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-data.js"></script>
+    <link rel="stylesheet" type="text/css" href="../template.css" />
+    <link rel="stylesheet" type="text/css" href="/" />
+    <script type="text/javascript" src='../test-credentials.js'></script>  
+    <style>
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+      th, td {
+        border: 1px solid #180e0e;
+        padding: 10px;
+        text-align: left;
+      }
+      th {
+        background-color: #0ef1f9;
+      }
+    
+      /* Styling for the map */
+      #map {
+        height: 400px;
+        width: 100%;
+        margin-top: 20px;
+      }
+    
+     /* Styling for the demographic information title */
+.demographic-title {
+  margin-top: 40px;
+  font-size: 24px;
+  text-align: center; /* Ensure there are no hidden characters in this line */
+}
+
+header {
+  background-color: #343a40;
+  padding: 10px 0;
+  text-align: center;
+  color: #fff;
+  background-image: linear-gradient(rgb(135, 163, 247), rgb(58, 247, 253));
+  font-family: Italic, bold;
+  position: relative;
+}
+
+        .back-btn {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+    
+    .logo {
+      width: 100px; /* Adjust width as needed */
+      height: auto;
+    }
+    
+    .header-title {
+      font-size: 36px;
+      margin-top: 10px;
+    }
+ 
+
+    header {
+      background-color: #343a40;
+      padding: 10px 0;
+      text-align: center;
+      color: #fff;
+      background-image: linear-gradient(rgb(135, 163, 247), rgb(58, 247, 253));
+      font-family: Italic, bold;
+      position: relative;
+  }
+
+  .back-btn {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+  }
+    </style>   
+  </head>
+  <body>
+    <h1>Vadodara Demographic Information</h1>
+    
+    <div id="map"></div>
+    
+
+    <table>
+      <thead>
+        <tr>
+          <th>Category</th>
+          <th>Information</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Total Population</td>
+          <td>41.7 Lakh</td>
+        </tr>
+        <tr>
+          <td>Sub Divisions (Prant)</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>Taluka Mamlatdars</td>
+          <td>12</td>
+        </tr>
+        <tr>
+          <td>Villages-Revenue</td>
+          <td>694</td>
+        </tr>
+        <tr>
+          <td>Municipal Corporation</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>Municipalities</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>Municipalities</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>Taluka Panchayat</td>
+          <td>8</td>
+        </tr>
+        <tr>
+          <td>Gram Panchayat</td>
+          <td>540</td>
+        </tr>
+        <tr>
+          <td>Sex Ratio</td>
+          <td>934</td>
+        </tr>
+        <tr>
+          <td>Literacy Rate</td>
+          <td>78.92</td>
+        </tr>
+        <tr>
+          <td>Total Area</td>
+          <td>7546 Sq. Km.</td>
+        </tr>
+        <!-- You can add more rows for additional demographic information -->
+      </tbody>
+    </table>
+    <script type="text/javascript" src="/data/demo.js"></script>
+  </body>
+</html>

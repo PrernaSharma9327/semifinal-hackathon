@@ -1,0 +1,15 @@
+.card {
+  width: 100%;
+  margin-bottom: 20px; /* Adjust as needed */
+   box-shadow: 10px 10px 30px rgba(173, 216, 230, 0.8);
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  padding: 20px;
+  
+}

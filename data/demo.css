@@ -1,0 +1,27 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  th, td {
+    border: 1px solid #180e0e;
+    padding: 10px;
+    text-align: left;
+  }
+  th {
+    background-color: #0ef1f9;
+  }
+
+  /* Styling for the map */
+  #map {
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  /* Styling for the demographic information title */
+  .demographic-title {
+    margin-top: 40px;
+    font-size: 24px;
+    text-align: center;
+  }

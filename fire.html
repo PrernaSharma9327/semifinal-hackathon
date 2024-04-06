@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <title>Places Where You Can Start a fire station</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fire.css">
+    <style>
+    
+        /* Custom CSS for the map container */
+        #map-container {
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        #map {
+            height: 600px; /* Adjust the height as needed */
+            width: 150%;
+        }
+
+        .reasons-container {
+            margin-top: 20px;
+        }
+
+        .reasons-container h2 {
+            font-style: italic;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .reasons-container h3 {
+            font-style: italic;
+        }
+
+        .reasons-container p {
+            margin-bottom: 20px;
+        }
+
+        body {
+            
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-color: rgba(255, 255, 255, 2);
+        }
+
+        header {
+            background-color: #343a40;
+            padding: 10px 0;
+            text-align: center;
+            color: #fff;
+            background-image: linear-gradient(rgb(135, 163, 247), rgb(58, 247, 253));
+            font-family: Italic, bold;
+            position: relative;
+        }
+
+        .back-btn {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-4"> <!-- Bootstrap container class for responsive layout -->
+    <header>
+        <a href="govbuz.html" class="btn btn-secondary back-btn">Back</a>
+        <h1>Geo Planner 360</h1>
+    </header>
+
+    <div class="page-header text-center">
+        <h1>Places Where You Can Start a Fire Station
+     </h1>
+    </div>
+
+    <div id="map-container">
+        <div id="map"></div>
+    </div>
+
+    <div class="reasons-container mt-4">
+        <div class="container">
+            <div class="reasons-container mt-4">
+    <div class="container">
+        <h2>Reasons to Start a Fire Station near Natu Bhai Circle</h2>
+        <div class="reason">
+            <h3>1. High Traffic Area</h3>
+            <p>Natu Bhai Circle experiences heavy traffic due to its central location, making it essential to have a fire station nearby for quick emergency response.</p>
+        </div>
+        <div class="reason">
+            <h3>2. Residential and Commercial Mix</h3>
+            <p>The area surrounding Natu Bhai Circle has a mix of residential and commercial establishments, increasing the need for fire safety measures to protect both residents and businesses.</p>
+        </div>
+        <div class="reason">
+            <h3>3. Proximity to Educational Institutions</h3>
+            <p>With several educational institutions nearby, including schools and colleges, having a fire station in close proximity ensures the safety of students and staff.</p>
+        </div>
+    </div>
+</div>
+
+<div class="reasons-container mt-4">
+    <div class="container">
+        <h2>Reasons to Start a Fire Station near Soma Talav</h2>
+        <div class="reason">
+            <h3>1. Recreational Area</h3>
+            <p>Soma Talav is a popular recreational spot, attracting crowds for picnics, boating, and other leisure activities. Establishing a fire station nearby ensures prompt assistance in case of emergencies.</p>
+        </div>
+        <div class="reason">
+            <h3>2. Risk of Natural Calamities</h3>
+            <p>Given its proximity to a water body, Soma Talav area may be at risk of flooding during heavy rains. Having a fire station nearby can aid in rescue operations during such situations.</p>
+        </div>
+        <div class="reason">
+            <h3>3. Residential Development</h3>
+            <p>The residential development around Soma Talav has increased the population density in the area. A fire station nearby provides crucial fire protection services to the growing community.</p>
+        </div>
+    </div>
+
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script src="https://js.api.here.com/v3/3.1/mapsjs-core.js"></script>
+<script src="https://js.api.here.com/v3/3.1/mapsjs-service.js"></script>
+<script src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js"></script>
+
+<script src="fire.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <title>Interleave vector and object layers</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   <link rel="stylesheet" href="stationaryloc.css">
+    <style>
+        /* Custom CSS for the map container */
+        #map-container {
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-top: 20px;
+        }
+
+        #map {
+            height: 600px; /* Adjust the height as needed */
+            width: 150%;
+        }
+
+        .reasons-container {
+            margin-top: 20px;
+        }
+
+        .reasons-container h2 {
+            font-style: italic;
+            font-weight: bold;
+            
+        }
+
+        .reasons-container p {
+            margin-bottom: 20px;
+        }
+   
+    body {
+      background-image: url('https://img.freepik.com/free-photo/blank-envelopes-business-cards-isolated-white_211682-238.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-color: rgba(255, 255, 255, 2);
+     
+    }
+    header {
+      background-color: #343a40;
+      padding: 10px 0;
+      text-align: center;
+      color: #fff;
+      background-image: linear-gradient( rgb(135, 163, 247), rgb(58, 247, 253));
+      font-family: Italic, bold;
+      position: relative;
+    }
+    .back-btn {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      
+    } 
+  
+    </style>
+</head>
+<body>
+
+<div class="container mt-4">
+ <!-- Bootstrap container class for responsive layout -->
+  <header>
+    <a href="privatebusiness.html" class="btn btn-secondary back-btn">Back</a>
+    <h1>Geo Planner 360</h1>
+  </header>
+    <div class="page-header text-center">
+    
+        <h1>Places Where You can start a Stationery</h1>
+        <p></p>
+    </div>
+
+    <div id="map-container">
+      
+        <div id="map"></div>
+    </div>
+  
+   <div class="mt-4 reasons-container">
+     
+        <h1>Reasons to start a stationary at this place</h1>
+     <h2> Area: Nr. M.S University</h2>
+  <ul>
+    <li><strong>Student Population:</strong> MS University is a prominent educational institution with a significant student population, making it an ideal location for a stationery store to cater to their needs.</li>
+    <li><strong>Faculty and Staff Needs:</strong> In addition to students, faculty members and university staff also require stationery supplies for administrative work, teaching materials, and research.</li>
+    <li><strong>Convenience:</strong> Proximity to the university ensures easy access for students and faculty, making your store a convenient shopping destination.</li>
+    <li><strong>Demand Stability:</strong> Educational institutions like MS University provide a stable demand for stationery products throughout the academic year.</li>
+    <li><strong>Community Engagement:</strong> By becoming a part of the university's surrounding community, you have the opportunity to engage with students, faculty, and staff, leading to loyal customers and word-of-mouth referrals.</li>
+    <li><strong>Reduced Competition:</strong> Depending on the existing market landscape, there may be limited competition in the immediate vicinity of MS University, allowing you to capture a potentially underserved market.</li>
+    <li><strong>Supporting Academic Environment:</strong> Your stationery store contributes to the academic environment by providing essential supplies that facilitate learning and productivity.</li>
+  </ul>
+    </div>
+<div class="mt-4 reasons-container">
+        <h1>Reasons to start a stationary at this place</h1>
+     <h2> Area: Narayan Garden Road </h2>
+                                   <ul>
+    <li><strong>Student Hub:</strong> With Narayan Garden Road being a central location near educational institutions, including MS University, the demand for stationery from students remains high.</li>
+    <li><strong>Low Crime Rates:</strong> The area boasts low crime rates, ensuring a safe and secure environment for both customers and business operations.</li>
+    <li><strong>Ample Vehicle Availability:</strong> Narayan Garden Road enjoys good vehicular accessibility, facilitating easy transportation for customers and suppliers alike.</li>
+    <li><strong>Proximity to Hospitals:</strong> With nearby hospitals such as Sterling Hospital and Baroda Heart Institute, the area provides convenience for medical emergencies and attracts foot traffic from visitors and patients.</li>
+    <li><strong>Reduced Pollution:</strong> Compared to densely populated areas, Narayan Garden Road offers relatively cleaner air and a more serene environment, enhancing the overall shopping experience.</li>
+    <li><strong>Community Engagement:</strong> By serving the needs of both students and residents in the vicinity, your stationery store becomes an integral part of the local community, fostering long-term relationships and brand loyalty.</li>
+    <li><strong>Business Viability:</strong> The combination of a stable student population, low crime rates, easy accessibility, and proximity to healthcare facilities makes Narayan Garden Road an ideal location for a thriving stationery business.</li>
+  </ul>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script src="https://js.api.here.com/v3/3.1/mapsjs-core.js"></script>
+<script src="https://js.api.here.com/v3/3.1/mapsjs-service.js"></script>
+<script src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js"></script>
+<script defer src="https://app.fastbots.ai/embed.js" data-bot-id="clun7613500vzn8b00947le32"></script>
+<script src="stationaryloc.js"></script>
+
+</body>
+</html>
